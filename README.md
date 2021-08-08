@@ -1,6 +1,6 @@
 ## AKS with Application Gateway Ingress - provisioned with Terraform 
 
-The Azure Application Gateway Ingress Controller (AGIC) allows the use of Application Gatway as the ingress for Azure Kubernetes Service (AKS). This repository contains a Terraform example that provisions AKS and Application Gateway with AGIC configured as a native, first-class, AKS add-on. A sample application, azure-vote, demonstrates its usage. Additional configuration samples may be found at https://azure.github.io/application-gateway-kubernetes-ingress/ .
+The Azure Application Gateway Ingress Controller (AGIC) allows the use of Application Gateway as ingress for Azure Kubernetes Service (AKS). This repository contains a Terraform example that provisions AKS and Application Gateway with AGIC configured as a native, first-class, AKS add-on. A sample application, azure-vote, demonstrates its usage. Additional configuration samples may be found at https://azure.github.io/application-gateway-kubernetes-ingress/ .
 
 Using AGIC eliminates the need to have another load balancer in front of the AKS cluster and avoids additional hops before requests reach AKS. Unlike a traditional in-cluster ingress controller AGIC communicates directly with Kubernetes pods. As a result AGIC can achieve a [50% lower network latency](https://azure.microsoft.com/en-ca/blog/application-gateway-ingress-controller-for-azure-kubernetes-service/) vs in-cluster ingress controllers. 
 
