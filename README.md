@@ -16,7 +16,7 @@ Levaraging Application Gateway's native L7 load balancer AGIC offers a number of
 * Integrated with Application Gatways web application firewall (WAF)
 * Azure native, Microsoft supported solution
 
-AGIC can be install as a first-class AKS add-on or through Helm. Deploying AGIC as an AKS add-on is much simpler and provides a fully managed experience with automatic updates. 
+AGIC can be installed as a first-class AKS add-on or through Helm. Deploying AGIC as an AKS add-on is much simpler and provides a fully managed experience with automatic updates. 
 
 For more information see:
 
