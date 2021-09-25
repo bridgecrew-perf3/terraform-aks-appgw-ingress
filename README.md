@@ -23,5 +23,3 @@ For more information see:
 - [Application Gateway Ingress Controller for Azure Kubernetes Service](https://azure.microsoft.com/en-ca/blog/application-gateway-ingress-controller-for-azure-kubernetes-service/)
 - [What is Application Gateway Ingress Controller?](https://docs.microsoft.com/en-us/azure/application-gateway/ingress-controller-overview)
 - [Create an Application Gateway ingress controller in Azure Kubernetes Service](https://docs.microsoft.com/en-us/azure/developer/terraform/create-k8s-cluster-with-aks-applicationgateway-ingress)
-- https://github.com/Azure/application-gateway-kubernetes-ingress
-- https://azure.github.io/application-gateway-kubernetes-ingress/
